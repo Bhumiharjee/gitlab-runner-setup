@@ -133,6 +133,15 @@ sudo nano /etc/docker/daemon.json
     "max-file": "3"
   }
 }
+####################################################
+or second option
+#####################################################
+{
+  "insecure-registries": ["34.93.164.72:8082"]
+}
+
+
+
 ```
 
 3. Verify the JSON syntax:
