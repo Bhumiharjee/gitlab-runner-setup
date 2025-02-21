@@ -54,7 +54,7 @@ sudo nano /etc/docker/daemon.json
 2. Add the following configuration:
 ```json
 {
-  "insecure-registries": ["34.93.164.72:8082"],
+  "insecure-registries": ["vm-ip:runner-port"],
   "log-driver": "json-file",
   "log-opts": {
     "max-size": "100m",
