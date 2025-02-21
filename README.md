@@ -134,10 +134,10 @@ sudo nano /etc/docker/daemon.json
   }
 }
 ####################################################
-or second option
+# or second option
 #####################################################
 {
-  "insecure-registries": ["34.93.164.72:8082"]
+  "insecure-registries": ["registory-ip:registory-port"]
 }
 
 
